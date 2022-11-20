@@ -14,7 +14,7 @@ public class RoleServiceImpl implements RoleService {
         this.rolesRepository = rolesRepository;
     }
 
-    public List <Role> getRoles() {
+    public List<Role> getRoles() {
         return rolesRepository.findAll();
     }
 }
